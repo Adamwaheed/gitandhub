@@ -1,14 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="">portal</a>
-    <h1>Hello world</h1>
+    <header class="bg-green-700 text-white p-6 text-center shadow-lg">
+    <h1 class="text-3xl font-bold">Eid Celebration 2025 🌙</h1>
+    <p class="text-lg mt-2">Join us for a joyful gathering with family and friends!</p>
+  </header>
+
+  <!-- Event Info -->
+  <section class="max-w-3xl mx-auto p-6 mt-8 bg-white rounded-xl shadow-md">
+    <h2 class="text-2xl font-semibold text-green-700 mb-4">Event Details</h2>
+    <ul class="list-disc pl-6 space-y-2 text-lg">
+      <li><strong>Date:</strong> Sunday, April 20, 2025</li>
+      <li><strong>Time:</strong> 4:00 PM to 9:00 PM</li>
+      <li><strong>Venue:</strong> Central Park Community Hall</li>
+      <li><strong>Activities:</strong> Food Stalls, Henna, Games, Prayer, and more!</li>
+    </ul>
+  </section>
+
+  <!-- RSVP -->
+  <section class="max-w-3xl mx-auto p-6 mt-6 bg-white rounded-xl shadow-md">
+    <h2 class="text-2xl font-semibold text-green-700 mb-4">RSVP</h2>
+    <p class="mb-4">Let us know if you're coming!</p>
+    <form class="space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full border p-2 rounded-md" />
+      <input type="email" placeholder="Your Email" class="w-full border p-2 rounded-md" />
+      <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800">
+        Confirm Attendance
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center text-sm text-gray-600 mt-12 mb-6">
+    © 2025 Eid Event Team. All rights reserved.
+  </footer>
   </body>
 </html>
